@@ -17,6 +17,7 @@ class Tree {
     std::string component;
     std::vector<char> transfer;
     std::vector<std::vector<char>> result;
+ 
  public:
     explicit Tree(std::vector <char> in) {
         components = in;
