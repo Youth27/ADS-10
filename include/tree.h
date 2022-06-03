@@ -23,7 +23,7 @@ class Tree {
         component.resize(in.size());
         transfer.resize(in.size());
         Node* root = new Node;
-        root->value = '*';
+        root->values = '*';
         cross(in, -1, 0, root);
     }
     Node* createNode(char values) {
